@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   resources :recipes
   resources :locations
   resources :posts
-  resources :users
   devise_for :users
+  resources :users
   root 'home#index'
 end
   
