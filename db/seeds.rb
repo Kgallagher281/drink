@@ -21,13 +21,6 @@ User.create!([
 	email: "boony@boony.com",
 	password: "password"
 
-},
-{ 	id: 3,
-	fname: "Sherill",
-	lname: "Samuel",
-	email: "sherill@sherill.com",
-	password: "password"
-
 }
 
 ])
@@ -59,13 +52,6 @@ Location.create!([
 	latitude: "40.749454"
 },
 
-{
-	id: 4,
-	name: "Jubilee Market",
-	address: "99 John St, New York, NY 10038",
-	longitude: "-74.006365",
-	latitude: "40.708261"
-},
 
 {
 	id: 5,
