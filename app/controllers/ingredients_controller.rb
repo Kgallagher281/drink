@@ -7,9 +7,11 @@ class IngredientsController < ApplicationController
     @ingredients = Ingredient.all
   end
 
+
   # GET /ingredients/1
   # GET /ingredients/1.json
   def show
+@drinks = @ingredient.serach
   end
 
   # GET /ingredients/new
@@ -20,6 +22,9 @@ class IngredientsController < ApplicationController
   # GET /ingredients/1/edit
   def edit
   end
+
+  def search
+    end
 
   # POST /ingredients
   # POST /ingredients.json

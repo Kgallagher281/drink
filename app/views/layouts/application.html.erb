@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Drink</title>
+    <title>Mixology</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <nav>
+      <% if user_signed_in?%>
+        <!-- need to define root for HAT3. Direct to homepage -->
+        <span><%= link_to "Home", root_path %></span>
+        <span><%= link_to "Posts", posts_path %></span>
+        <span><%= link_to "Best Cocktail Locations", locations_path %></span>
+        <span><%= link_to "Cocktail Recipies", recipes_path %></span>
+        <span><%= link_to 'Logout', destroy_user_session_path, :method => :delete %></span>
+
+      <% end %>
+</nav>
 
          <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>

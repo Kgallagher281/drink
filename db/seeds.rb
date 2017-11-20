@@ -257,3 +257,308 @@ body: "2 ounces whiskey
 }
 
 ])
+
+Ingredient.create!([
+
+{
+id: 1,
+name: 'Vodka', 
+description: "Vodka was popularized in Russia and eastern Europe where it is cheaper than water.", 
+category: :alcohol	
+},
+
+{
+id: 2,
+name: 'Gin', 
+description: "The first confirmed date for the production of gin is the early 17th century in Holland, although claims have been made that it was produced prior to this in Italy.", 
+category: :alcohol
+},
+
+{
+id:3,
+name: 'Scotch',
+description: 'Malt whisky or grain whisky made in Scotland. Scotch whisky must be made in a manner specified by law',
+category: :alcohol
+},
+
+{
+id: 4,
+name: 'burbon',
+description: 'Bourbon must be created from a mash (a mixture of fermentable grain) that is at least 51 percent corn. The other 49 percent is usually a mixture of barley, rye, or wheat.
+Bourbon must be aged in new American oak barrels (whereas many types of whiskey, like Scotch whisky, are often aged in barrels that have previously held wine, port, other whisk(e)y, and so forth).',	
+category: :alcohol
+},
+
+{
+id: 5,
+name: 'Rum',
+description: 'The first distillation of rum took place on the sugarcane plantations of the Caribbean in the 17th century. Plantation slaves first discovered that molasses, a byproduct of the sugar refining process, could be fermented into alcohol. ... Tradition suggests rum first originated on the island of Barbados.',
+category: :alcohol	
+},
+
+{
+id: 6,
+name: 'Tequilla',
+description: 'Tequila (Spanish pronunciation: [teˈkila] ( listen)) is a regionally specific distilled beverage and type of alcoholic drink made from the blue agave plant, primarily in the area surrounding the city of Tequila, 65 km (40 mi) northwest of Guadalajara, and in the highlands (Los Altos) of the central western Mexican',
+category: :alcohol	
+},
+
+{
+id: 7,
+name: 'Whiskey',
+description: "The term 'whisky' derives originally from the Gaelic 'uisge beatha', or 'usquebaugh', meaning 'water of life'. Gaelic is that branch of Celtic spoken in the Highlands of Scotland. Whisky has been distilled in Scotland for hundreds of years.",
+category: :alcohol	
+},
+
+{
+id: 8,
+name: 'Club Soda',
+description: 'Club soda is carbonated water that has added minerals like potassium bicarbonate and potassium citrate to enhance the flavor. It can also have added sodium',
+category: :mixer
+},
+
+{
+id: 9,
+name: 'Tonic',
+description: 'Tonic water is a carbonated soft drink in which quinine is dissolved. Originally used as a prophylactic against malaria, tonic water usually now has a significantly lower quinine content and is consumed for its distinctive bitter flavor',
+category: :mixer
+},
+
+{
+id: 10,
+name: 'Coke',
+description: 'Coca-Cola, or Coke, is a carbonated soft drink produced by The Coca-Cola Company. Originally intended as a patent medicine, it was invented in the late 19th century by John Pemberton',
+category: :mixer
+},
+
+{
+id: 11,
+name: '7 up',
+description: '7 Up (stylized as 7up outside the U.S.) is a brand of lemon-lime flavored, non-caffeinated soft drink. The rights to the brand are held by Dr Pepper Snapple Group in the United States, and PepsiCo (or its licensees) in the rest of the world.',
+category: :mixer
+},
+
+{
+id: 12,
+name: 'Ginger Ale',
+description: 'Ginger ale, as with other ginger products, is often used as a home remedy to alleviate indigestion or motion sickness, or to relieve and to soothe coughs and sore throats. Studies on its effectiveness as an antiemetic have produced mixed results, with most finding that ginger extract will relieve symptoms of nausea.',
+category: :mixer
+},
+
+{
+id: 13,
+name: 'Cranberry Juice',
+description: 'Juice made from Cranberries.',
+category: :mixer
+},
+
+{ id: 14, 
+  name: 'Grapefruit Juice', 
+  description: 'Juice made from Grapefruit',
+  category: :mixer 
+},
+
+{
+id: 15,
+name: 'Lemon Juice',
+description: 'Juice made from lemons',
+category: :mixer
+},
+
+{
+id: 16,
+name: 'Lime Juice',
+description: 'Juice made from limes',
+category: :mixer
+},
+
+{
+id: 17,
+name: 'Orange Juice',
+description: 'Juice made from orange',
+category: :mixer
+},
+
+{
+id: 18,
+name: 'Pineapple Juice',
+description: 'Juice made from pineapple',
+category: :mixer
+},
+
+{
+id: 19,
+name: 'Tomato Juice',
+description: 'Juice made from tomatoes',
+category: :mixer
+},
+
+{
+id: 20,
+name: 'Bitters',
+description: 'A bitters is traditionally an alcoholic preparation flavored with botanical matter such that the end result is characterized by a bitter, sour, or bittersweet flavor.',
+category: :mixer
+},
+
+{
+id: 21,
+name: 'Grenadine',
+description: 'Grenadine is a commonly used, non-alcoholic bar syrup, characterized by a flavour that is both tart and sweet, and by a deep red colour. It is popular as an ingredient in cocktails, both for its flavour and to give a reddish/pink tint to mixed drinks.',
+category: :mixer
+},
+
+{
+id: 22,
+name: 'Simple Syrup',
+description: 'Simple syrup is nothing more than a solution of sugar in water, and because the sugar is already dissolved into the water.',
+category: :mixer
+},
+
+{
+id: 23,
+name: 'Sour Mix',
+description: 'Sour mix is a mixer that is yellow-green in color and is used in many cocktails. It is made from approximately equal parts lemon and/or lime juice and simple syrup and shaken vigorously with ice.',
+category: :mixer
+},
+
+{
+id: 24,
+name: 'Tabasco Sauce',
+description: 'Tabasco sauce is a brand of hot sauce made exclusively from tabasco peppers, vinegar, and salt. It is produced by McIlhenny Company of Avery Island, Louisiana.',
+category: :mixer
+},
+
+{
+id: 25,
+name: 'Milk',
+description: 'Dairy product typically derived from cows',
+category: :mixer
+},
+
+{
+id: 26,
+name: 'Half and Half',
+description: 'Half and half refers to various beverages or liquid foods made of an equal-parts mixture of two substances, including dairy products, alcoholic beverages, and soft drinks.',
+category: :mixer
+},
+
+{
+id: 27,
+name: 'Tea',
+description: 'Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub native to Asia. After water, it is the most widely consumed drink in the world.',
+category: :mixer
+},
+
+{
+id: 30,
+name: 'Coffee',
+description: 'Coffee traces its origin to a genus of plants known as Coffea.  Within the genus there are over 500 genera and 6,000 species of tropical trees and shrubs. Experts estimate that there are anywhere from 25 to 100 species of coffee plants.',
+category: :mixer
+},
+
+{
+id: 31,
+name: 'Amaretto',
+description: 'Amaretto (Italian for "a little bitter") is a sweet, almond-flavoured, Italian liqueur associated with Saronno, Italy. Various commercial brands are made from a base of apricot pits, almonds, or both..',
+category: :alcohol
+},
+
+{ 
+id: 32, 
+name: 'Coffee Liqueur', 
+description: 'A liqueur coffee is a coffee drink with a shot of liqueur. It may be served in a special liqueur coffee glass, often with cream and sugar.',
+category: :alcohol 
+},
+
+{
+id: 33,
+name: 'Vermouth',
+description: 'Taking its name from the German word "Wermut," meaning wormwood, vermouth is an aromatic fortified wine flavored with herbs, roots, bark, flowers and other botanicals. It comes in two basic styles: sweet and dry, each with different cocktail uses.',
+category: :mixer
+},
+
+{
+id: 34,
+name: ' Irish Cream Liqueur ',
+description: 'rish cream is a cream liqueur based on Irish whiskey, cream, and other ingredients such as coffee, which can be served on its own, as an alcoholic substitute for milk/cream and sugar in a hot coffee',
+category: :alcohol
+},
+
+{
+id: 35,
+name: 'Chambord',
+description: 'raspberry flavored liqueur',
+category: :alcohol
+},
+
+{
+id: 36,
+name: 'Elderflower Liqueur',
+description: 'Elderflower cordial is a soft drink made largely from a refined sugar and water solution and uses the flowers of the European elderberry. Historically the cordial has been popular in North Western Europe where it has a strong Victorian heritage.',
+category: :alcohol
+},
+
+{
+id: 37,
+name: 'Drambuie',
+description: 'Drambuie is a golden coloured, 40% ABV liqueur made from scotch whisky, honey, herbs and spices. The brand had been owned by the MacKinnon family for a hundred years.',
+category: :mixer
+},
+
+{
+id: 38,
+name: 'Mint',
+description: 'Mentha is a genus of plants in the family Lamiaceae. It is estimated that 13 to 18 species exist, and the exact distinction between species is still unclear. Hybridization between some of the species occurs naturally.',
+category: :mixer
+},
+
+{
+id: 39,
+name: 'Olives',
+description: 'The olive, known by the botanical name Olea europaea, meaning "European olive", is a species of small tree in the family Oleaceae, found in the Mediterranean Basin from Portugal to the Levant.',
+category: :mixer
+},
+
+{
+id: 40,
+name: 'Lemons',
+description: 'The lemon, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to Asia.', 
+category: :mixer
+},
+{
+id: 41,
+name: 'Limes',
+description: 'A lime is a hybrid citrus fruit, which is typically round, lime green, 3–6 centimetres in diameter, and contains acidic juice vesicles.',
+category: :mixer
+},
+
+{
+id: 42,
+name: 'Oranges',
+description: 'The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae. It is also called sweet orange, to distinguish it from the related Citrus × aurantium, referred to as bitter orange',
+category: :mixer
+},
+
+{
+id: 43,
+name: 'Cherries',
+description: 'A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. The cherry fruits of commerce usually are obtained from cultivars of a limited number of species such as the sweet cherry and the sour cherry.',
+category: :mixer
+},
+
+{
+id: 44,
+name: 'Champagne',
+description: 'Champagne is a type of sparkling wine and type of an alcoholic drink produced from grapes grown in the Champagne region of France following rules that demand, among other things, secondary fermentation.',
+category: :alcohol
+},
+
+{
+id: 45,
+name: 'Prosecco',
+description: 'Prosecco is an Italian white wine. Prosecco controlled designation of origin can be spumante, frizzante, or tranquillo. It is made from Glera grapes, formerly known also as Prosecco, but other grape varieties may be included.',
+category: :alcohol
+}
+
+
+])

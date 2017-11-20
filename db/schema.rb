@@ -15,13 +15,9 @@ ActiveRecord::Schema.define(version: 20171120151641) do
   create_table "ingredients", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.string "alcohol"
-    t.string "mixer"
     t.integer "category"
-    t.integer "recipe_ingredients_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["recipe_ingredients_id"], name: "index_ingredients_on_recipe_ingredients_id"
   end
 
   create_table "locations", force: :cascade do |t|

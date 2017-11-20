@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+
+
+/*home page CSS*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.welcome {
+    /* The image used */
+    background-image: url("glasses.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.design{
+	font-size:  30px;
+	text-align: center;
+	margin-top: 800px;
+	position: absolute;
+	z-index: 2;
+	margin-left: 700px;
+
+	
+}
+
+
+
+
+/*Sign in and Register Page*/
+
+
+.user {
+    /* The image used */
+    background-image: url("glasses.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup{
+	font-size:  30px;
+	text-align: center;
+	margin-top: 400px;
+	position: absolute;
+	z-index: 2;
+	margin-left: 500px;
+
+	
+}
