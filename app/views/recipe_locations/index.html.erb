@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Recipe Locations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Recipe</th>
+      <th>Location</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @recipe_locations.each do |recipe_location| %>
+      <tr>
+        <td><%= recipe_location.recipe_id %></td>
+        <td><%= recipe_location.location_id %></td>
+        <td><%= link_to 'Show', recipe_location %></td>
+        <td><%= link_to 'Edit', edit_recipe_location_path(recipe_location) %></td>
+        <td><%= link_to 'Destroy', recipe_location, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Recipe Location', new_recipe_location_path %>

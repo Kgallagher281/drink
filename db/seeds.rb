@@ -231,3 +231,29 @@ Post.create!([
 		photo: open('http://static.wixstatic.com/media/3cc615_323631ae328f4ea2b8a4d8837f08107d.jpg_256')
 	}
 ])
+
+Recipe.create!([
+{
+id: 1,
+title: "Moscow Mule",
+body: "1 1/2 fluid ounces vodka 1/2 fluid ounce lime juice ice cubes 1/2 cup ginger beer 1 lime wedge for garnish"
+},
+
+{
+id: 2,
+title: "Manhattan",
+body: "2 ounces rye whiskey, bourbon, or Canadian whiskey
+1 ounce sweet vermouth
+2–3 dashes Angostura Bitters
+Cherry for garnish"
+},
+
+{
+id: 3,
+title: "Whiskey Sour",
+body: "2 ounces whiskey
+1 ounce fresh-squeezed lemon juice
+1 teaspoon sugar"
+}
+
+])

@@ -1,0 +1,2 @@
+class RecipeLocation < ApplicationRecord
+end

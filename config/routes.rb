@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+  resources :recipe_locations
+  devise_for :users
   resources :ingredients
   resources :recipe_ingredients
   resources :recipes
   resources :locations
   resources :posts
-  devise_for :users
   resources :users
   root 'home#index'
 end

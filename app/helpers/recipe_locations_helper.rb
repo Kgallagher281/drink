@@ -1,0 +1,2 @@
+module RecipeLocationsHelper
+end

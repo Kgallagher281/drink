@@ -3,8 +3,9 @@
 
    <center><div class="home-user-btns">
      <%= link_to 'Yes, I am over 21', users_path, class: 'btn btn-info' %>
-     <%= link_to 'No, I am not over 21', 'https://www.buzzfeed.com/thenewschool/21-things-to-do-under-21-in-nyc-ymfe?utm_term=.weKA0o5kWG#.bbKy3o6bVQ', class: 'btn btn-info'%>
+     <%= link_to 'No, I am not over 21','https://www.tablespoon.com/posts/20-non-alcoholic-party-drinks-everyone-will-love', class: 'btn btn-info'%>
    </div>
 
-   <%= link_to 'Register', new_user_registration_path %>
-   
+	   <%= link_to 'Register', new_user_registration_path %>
+	   <%= link_to 'Sign in', user_session_path %>
+	    <%= link_to 'Logout', destroy_user_session_path, :method => :delete %>

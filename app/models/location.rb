@@ -11,7 +11,8 @@ class Location < ApplicationRecord
 			lng: longitude.to_f,
 			lat: latitude.to_f,
 			name: name,
-			address: address
+			address: address,
+			
 		}
 	end
 
