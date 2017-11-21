@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   resources :recipe_locations
   devise_for :users
   resources :ingredients

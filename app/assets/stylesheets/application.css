@@ -14,7 +14,8 @@
  *= require_self
  */
 
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
 /*home page CSS*/
 
 body, html {
@@ -38,10 +39,10 @@ body, html {
 .design{
 	font-size:  30px;
 	text-align: center;
-	margin-top: 800px;
+	margin-top: 500px;
 	position: absolute;
 	z-index: 2;
-	margin-left: 700px;
+	margin-left: 550px;
 
 	
 }
@@ -55,6 +56,7 @@ body, html {
 .user {
     /* The image used */
     background-image: url("glasses.jpg");
+    padding: 50px;
 
     /* Full height */
     height: 100%; 
@@ -66,12 +68,35 @@ body, html {
 }
 
 .signup{
-	font-size:  30px;
+	font-size:  40px;
 	text-align: center;
-	margin-top: 400px;
+	margin-top: 600px;
 	position: absolute;
 	z-index: 2;
-	margin-left: 500px;
+	margin-left: 700px;
+	padding: 50px;
 
 	
 }
+
+/*navigation Bar*/
+
+.top{
+	font-size: 35px;
+	color: white;
+	text-decoration: none;
+	margin-top: 50px;
+	padding: 30px;
+
+}
+
+.bar{
+padding-left: 24px;
+padding-right: 24px;
+
+}
+
+a.signup{
+	padding: 50px;
+}
+

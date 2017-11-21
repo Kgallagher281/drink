@@ -26,6 +26,15 @@ class IngredientsController < ApplicationController
   def search
     end
 
+    def index
+  @ingredients = Ingredient.all
+  if params[:search]
+    @ingredients = Ingredient.search(params[:search]).order("created_at DESC")
+  else
+    @ingredients = Ingredient.all.order("created_at DESC")
+  end
+end
+
   # POST /ingredients
   # POST /ingredients.json
   def create

@@ -9,21 +9,23 @@
   </head>
 
   <body>
-    <nav>
+
+    <nav class="top">
       <% if user_signed_in?%>
         <!-- need to define root for HAT3. Direct to homepage -->
-        <span><%= link_to "Home", root_path %></span>
-        <span><%= link_to "Posts", posts_path %></span>
-        <span><%= link_to "Best Cocktail Locations", locations_path %></span>
-        <span><%= link_to "Cocktail Recipies", recipes_path %></span>
-        <span><%= link_to 'Logout', destroy_user_session_path, :method => :delete %></span>
-
-      <% end %>
+        <span class="bar"><%= link_to "Home", users_path, style: "color:white;" %></span>
+        <span class="bar"><%= link_to "Posts", posts_path, style: "color:white;" %></span>
+        <span class="bar"><%= link_to "Best Cocktail Locations", locations_path, style: "color:white;"; %></span>
+        <span class="bar"><%= link_to "Cocktail Recipies", recipes_path, style: "color:white;" %></span>
+        <span class="bar"><%= link_to "About us", contacts_path, style: "color:white;" %></span>
+        <span class="bar"><%= link_to 'Logout', destroy_user_session_path, :method => :delete, style: "color:white;" %></span>
+    <% end %>
 </nav>
 
          <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
 
     <%= yield %>
+
   </body>
 </html>
