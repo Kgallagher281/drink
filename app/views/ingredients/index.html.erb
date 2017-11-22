@@ -1,7 +1,7 @@
 <body class="ing">
 <p id="notice"><%= notice %></p>
 
-<h1 class="mix">Mix your Ingredients</h1>
+<h1 class="mix">Create your Cocktail</h1>
 
 <table>
   <thead>
@@ -11,13 +11,22 @@
   </thead>
   <div class="ingred">
 <form class="ingred">
-<form method="POST" action="http://www.thecocktaildb.com/api/json/v1/1/filter.php?i=#{name}">
+<form method="POST" action="ingredients/">
     <input class="alc" style="text-align: center" maxlength="150" name="Alcohol" autofocus="autofocus" placeholder="Enter Your Alcohol"></input>
     <input class="mix" style="text-align: center" maxlength="150" name="Mixers" autofocus="autofocus" placeholder="Enter Your Mixer"></input><br><br><br><br><br><br><br><br>
     <div class="sub">
-    <input type="submit" style="text-align: center" value="Submit"></input>
+    <input class="enter" type="submit" style="text-align: center" value="Submit"></input>
 
 </form>
+  <% unless @results.nil? %>
 <table>
+
+      <% @results.each do |drink| %>
+<tr>
+     <td><img width="100px" src="<%= drink["strDrinkThumb"] %>" /></td>
+     <td><%= drink["strDrink"] %></td>
+     <% end %>
 </table>
+<% end %>
 </form>
+

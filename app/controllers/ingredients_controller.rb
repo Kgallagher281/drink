@@ -5,9 +5,12 @@ class IngredientsController < ApplicationController
   # GET /ingredients.json
 def index
   @ingredients = Ingredient.all
+  @results = JSON.parse(HTTParty.get("http://www.thecocktaildb.com/api/json/v1/1/filter.php?i=#{params[:Alcohol]}").body)["drinks"]
 end
 
-
+def search
+    
+  end
   # GET /ingredients/1
   # GET /ingredients/1.json
 def show
@@ -17,6 +20,9 @@ end
   def new
     @ingredient = Ingredient.new
   end
+
+
+
 
   # GET /ingredients/1/edit
   def edit

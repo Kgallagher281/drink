@@ -8,7 +8,7 @@ body.ing{
 }
 
 
-input{
+input.alc{
 	height: 15%;
     font-size: 20px;
     width: 25%;
@@ -17,6 +17,16 @@ input{
   	margin-right: 25px;
   	display: block;
   	
+}
+
+input.mix{
+	height: 15%;
+    font-size: 20px;
+    width: 25%;
+  	float: left;
+  	text-align: right;
+  	margin-right: 25px;
+  	display: block;
 }
 
 .ingred{
@@ -41,9 +51,15 @@ padding-top: 25px;
 
 }
 
-.sub{
-	margin-left: 450px;
+.enter{
+	width: 20%;
+	height: 50%;
+    font-size: 25px;
+    margin-left: 450px;
+    display: inline-block;
 }
+
+
 
 .alc{
 	margin-left: 200px
