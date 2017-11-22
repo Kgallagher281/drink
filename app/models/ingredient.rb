@@ -8,4 +8,5 @@ require 'json'
  def search
    JSON.parse(open("http://www.thecocktaildb.com/api/json/v1/1/filter.php?i=#{name}"))
  end
+
 end

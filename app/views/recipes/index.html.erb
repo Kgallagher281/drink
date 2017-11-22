@@ -1,11 +1,10 @@
 <body class="recp"
 <p id="notice"><%= notice %></p>
 
+<div class="recipe">
+<div class="recp-title">
 <h1>Recipes</h1>
-<% if @recipes.blank? %>
-  <h4>There are no recipes containing the term <%= params[:search] %>.</h4>
-<% end %>
-
+</div>
 <table>
   <thead>
     <tr>
@@ -20,6 +19,7 @@
       <tr>
         <td><%= recipe.title %></td>
         <td><%= recipe.body %></td>
+        <td> <%= image_tag recipe.photo.url(:thumb) %></td>
         <td><%= link_to 'Show', recipe %></td>
         <td><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
         <td><%= link_to 'Destroy', recipe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -31,4 +31,5 @@
 <br>
 
 <%= link_to 'New Recipe', new_recipe_path %>
+</div>
 </body>

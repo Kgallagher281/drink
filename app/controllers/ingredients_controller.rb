@@ -3,16 +3,15 @@ class IngredientsController < ApplicationController
 
   # GET /ingredients
   # GET /ingredients.json
-  def index
-    @ingredients = Ingredient.all
-  end
+def index
+  @ingredients = Ingredient.all
+end
 
 
   # GET /ingredients/1
   # GET /ingredients/1.json
-  def show
-@drinks = @ingredient.serach
-  end
+def show
+end
 
   # GET /ingredients/new
   def new
@@ -22,18 +21,6 @@ class IngredientsController < ApplicationController
   # GET /ingredients/1/edit
   def edit
   end
-
-  def search
-    end
-
-    def index
-  @ingredients = Ingredient.all
-  if params[:search]
-    @ingredients = Ingredient.search(params[:search]).order("created_at DESC")
-  else
-    @ingredients = Ingredient.all.order("created_at DESC")
-  end
-end
 
   # POST /ingredients
   # POST /ingredients.json

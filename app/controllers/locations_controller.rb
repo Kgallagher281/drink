@@ -12,6 +12,7 @@ class LocationsController < ApplicationController
   def show
   end
 
+
   # GET /locations/new
   def new
     @location = Location.new
