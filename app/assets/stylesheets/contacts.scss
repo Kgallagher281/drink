@@ -27,11 +27,11 @@ body.about {
 }
 
 .container{
-	margin-top: 250px;
-	margin-left: 700px;
+	margin-top: 150px;
+	margin-left: 650px;
 	border-style: solid;
 	box-sizing: border-box;
-	width: 15%;
+	width: 20%;
 
 }
 
@@ -40,4 +40,24 @@ body.about {
 	margin-left: 750px;
 	font-size: 30px;
 	margin-top: 200px;
+}
+
+
+.contact-enter{
+	margin-left: 50px;
+	width: 50%;
+	height: 50%;
+	font-size: 20px;
+}
+
+.mess{
+width: 200px;
+height: 75px;
+}
+
+.info{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
 }
