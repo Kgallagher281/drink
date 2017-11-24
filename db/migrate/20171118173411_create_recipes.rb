@@ -4,6 +4,7 @@ class CreateRecipes < ActiveRecord::Migration[5.1]
       t.string :title
       t.text :body
       t.attachment :photo
+      
 
       t.timestamps
     end

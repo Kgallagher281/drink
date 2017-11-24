@@ -1,7 +1,11 @@
 <body class="about">
 <p id="notice"><%= notice %></p>
 
-<h1>Contacts</h1>
+<h1 class="aboutus">About us</h1>
+
+<p style="text-align: center;"> Welcome to Mixology.  We here at Mixology believe that life is short and should be enjoyed to it's fullest.  Drinking cocktails that are below standards is just unacceptable.  Mixology looks to provide drink recipes for every taste and preference.</p>
+
+<p style="text-align: center;"">  Have you ever been out and the mood strikes for your favorite cocktail but the bartender simply can't seem to get it right?  Well we believe that no drink should be anything less than perfect.  So next time your out and the bartender just can't get it right show them mixology and get the drink you deserve.</p>  
 
 <table>
   <thead>
@@ -10,18 +14,44 @@
     </tr>
   </thead>
 
-  <tbody>
-    <% @contacts.each do |contact| %>
-      <tr>
-        <td><%= link_to 'Show', contact %></td>
-        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="container">
+ 
+  <h1 class="contact-head">Contact us</h1>
+  <div class="row body">
+    <form method="POST" action="http://formspree.io/kevin.gallagher23@gmail.com">
+      <ul>
 
-<br>
+       
+          <p class="contact">
+            <label for="first_name">first name</label>
+            <input type="text" name="first_name" placeholder="John"/>
+          </p>
+          <p class="contact">
+            <label for="last_name">last name</label>
+            <input type="text" name="last_name" placeholder="Smith"/>
+          </p>
+        
+          <p class="contact">
+            <label for="email">email
+              <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="john.smith@gmail.com"/>
+          </p>
+        
+          <p class="contact">
+            <label for="message">message
+              <span class="req">*</span></label>
+            <input type="message" name="message" placeholder="Please Enter Your Message"/>
+          </p>
+          
+        <p class="contact">
+          <input  type="submit" value="Submit"/>
+          </p>
+       
 
-<%= link_to 'New Contact', new_contact_path %>
+      </ul>
+    </form>
+  </div>
+</div>
+
+  
 </body>

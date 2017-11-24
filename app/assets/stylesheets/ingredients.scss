@@ -9,32 +9,18 @@ body.ing{
 
 
 input.alc{
-	height: 15%;
+	  height: 15%;
     font-size: 20px;
-    width: 25%;
+    width: 20%;
   	float: left;
-  	text-align: right;
-  	margin-right: 25px;
-  	display: block;
+}
   	
-}
-
-input.mix{
-	height: 15%;
-    font-size: 20px;
-    width: 25%;
-  	float: left;
-  	text-align: right;
-  	margin-right: 25px;
-  	display: block;
-}
-
 .ingred{
-	width: 80%;
-	height: 50%;
+	 width: 70%;
+	 height: 30%;
     font-size: 25px;
-    margin-left: 300px;
-    display: inline-block;
+    margin-left: 550px;
+    
 
 }
 
@@ -52,15 +38,26 @@ padding-top: 25px;
 }
 
 .enter{
-	width: 20%;
-	height: 50%;
+	 width: 20%;
+	 height: 50%;
     font-size: 25px;
-    margin-left: 450px;
+    margin-left: 200px;
     display: inline-block;
 }
 
 
 
 .alc{
-	margin-left: 200px
+	margin-left: 200px;
+}
+
+
+
+.result{
+  margin-left: 300px;
+  display: inline-block;
+}
+
+.results {
+  font-size: 20px;
 }

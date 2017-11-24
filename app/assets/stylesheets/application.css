@@ -81,12 +81,14 @@ body, html {
 
 /*navigation Bar*/
 
-.top{
+nav.top{
 	font-size: 35px;
 	color: white;
 	text-decoration: none;
-	margin-top: 50px;
-	padding: 30px;
+	margin-top: 25px;
+	padding-left: 30px;
+	width: 100%;
+
 
 }
 

@@ -2,7 +2,7 @@
 <p id="notice"><%= notice %></p>
 
 <div class="recp-select">
-<h1 class="mix-title">Choose your Cocktail</h1>
+<h1 class="mix-title">Search for your Cocktail</h1>
 
 <table>
   <thead>
@@ -13,7 +13,7 @@
   <div class="recipe-input">
 <form class="recipe-inp">
 <form method="POST" action="/recipes">
-    <input class="recp-mix" style="text-align: center" maxlength="150" name="Mixers" autofocus="autofocus" placeholder="Enter Your Drink Here"></input><br><br><br><br><br><br><br><br>
+    <input class="recp-mix" style="text-align: center" maxlength="150" name="Recipe" autofocus="autofocus" placeholder="Enter Your Drink Here"></input><br><br><br><br>
     <div class="sub">
     <input class="recp-mix" type="submit" style="text-align: center" value="Submit"></input>
 
@@ -22,6 +22,17 @@
 </form>
 </div>
 </div>
+
+<% unless @results.nil? %>
+<table>
+
+      <% @results.each do |drink| %>
+<tr>
+     <td><img width="100px" src="<%= drink["strDrinkThumb"] %>" /></td>
+     <td><%= drink["strDrink"] %></td>
+     <% end %>
+</table>
+<% end %>
 
 <div class="recipe">
 <div class="recp-title">
@@ -52,6 +63,6 @@
 
 <br>
 
-<%= link_to 'New Recipe', new_recipe_path %>
+<p class="new-recp"><%= link_to 'New Recipe', new_recipe_path %></p>
 </div>
 </body>

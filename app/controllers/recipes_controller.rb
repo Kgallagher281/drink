@@ -5,6 +5,7 @@ class RecipesController < ApplicationController
   # GET /recipes.json
   def index
     @recipes = Recipe.all
+    @results = JSON.parse(HTTParty.get("http://www.thecocktaildb.com/api/json/v1/1/search.php?i=#{params[:Recipe]}").body)["drinks"]
   end
 
   # GET /recipes/1

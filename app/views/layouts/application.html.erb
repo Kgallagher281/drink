@@ -13,7 +13,7 @@
     <nav class="top">
       <% if user_signed_in?%>
         <!-- need to define root for HAT3. Direct to homepage -->
-        <span class="bar"><%= link_to "Home", users_path, style: "color:white;" %></span>
+        <span class="bar"><%= link_to "Home", ingredients_path, style: "color:white;" %></span>
         <span class="bar"><%= link_to "Create Cocktails", ingredients_path, style: "color:white;" %></span>
         <span class="bar"><%= link_to "Cocktail Recipies", recipes_path, style: "color:white;" %></span>
         <span class="bar"><%= link_to "Cocktail Locations", locations_path, style: "color:white;"; %></span>

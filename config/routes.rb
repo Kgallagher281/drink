@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   root 'home#index'
 
 post 'ingredients' => 'ingredients#index'
+
+post 'recipes' => 'recipes#index'
 end 
 
   

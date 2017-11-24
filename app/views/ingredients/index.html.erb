@@ -1,7 +1,7 @@
 <body class="ing">
 <p id="notice"><%= notice %></p>
 
-<h1 class="mix">Create your Cocktail</h1>
+<h1 class="mix">Drink List</h1>
 
 <table>
   <thead>
@@ -12,19 +12,18 @@
   <div class="ingred">
 <form class="ingred">
 <form method="POST" action="ingredients/">
-    <input class="alc" style="text-align: center" maxlength="150" name="Alcohol" autofocus="autofocus" placeholder="Enter Your Alcohol"></input>
-    <input class="mix" style="text-align: center" maxlength="150" name="Mixers" autofocus="autofocus" placeholder="Enter Your Mixer"></input><br><br><br><br><br><br><br><br>
+    <input class="alc" style="text-align: center" maxlength="150" name="Alcohol" autofocus="autofocus" placeholder="Enter Your Alcohol"></input><br><br><br><br><br><br><br><br>
     <div class="sub">
     <input class="enter" type="submit" style="text-align: center" value="Submit"></input>
-
+    </div>
 </form>
   <% unless @results.nil? %>
 <table>
 
       <% @results.each do |drink| %>
 <tr>
-     <td><img width="100px" src="<%= drink["strDrinkThumb"] %>" /></td>
-     <td><%= drink["strDrink"] %></td>
+     <td class="result"><img width="100px" src="<%= drink["strDrinkThumb"] %>" /></td>
+     <td class="results"><%= drink["strDrink"] %></td>
      <% end %>
 </table>
 <% end %>
