@@ -1,4 +1,4 @@
-<body class="loc">
+<body class="locate">
 <p id="notice"><%= notice %></p>
 
 <!-- <h4 class="beer">Beer Locations</h4> -->
@@ -30,7 +30,7 @@
 <br>
 
 <div class="new">
-<center><%= link_to 'Add New Location', new_location_path, class: 'btn btn-info' %>
+<center><span style="font-size: 20px;"><%= link_to 'Add New Location', new_location_path %></span></center>
   <br><br><br>
 
 </div>
@@ -93,10 +93,8 @@
     </style>
   </head>
   <body>
-    <input id="pac-input" class="controls" type="text"
-        placeholder="Enter a location">
     <div id="map"></div>
-    <div id="infowindow-content" style="width: 75px; height: 75px;">
+    <div id="infowindow-content" style="width: 50px; height: 50px;">
       <span id="place-name"  class="title"></span><br>
       Place ID <span id="place-id"></span><br>
       <span id="place-address"></span>
@@ -107,7 +105,6 @@
     <div id="floating-panel">
     </div>
 
-    <div id="map"></div>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
     <script>
@@ -249,14 +246,7 @@
 
 
     </script>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1YdmTHvdu_ed86HZznAx83rYvneTxQss&libraries=places">
-
-    </script>
-
-
-
-  </body>
+    </body>
   </body>
 </html>
 

@@ -20,7 +20,8 @@
 
 body, html {
     height: 100%;
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .welcome {
@@ -66,17 +67,32 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+@keyframes blink { 
+   50% { border-color: #ff0000; } 
+}
 
-.signup{
-	font-size:  40px;
+
+div.signup{
+	font-size:  30px;
 	text-align: center;
-	margin-top: 600px;
+	margin-top: 550px;
 	position: absolute;
 	z-index: 2;
-	margin-left: 700px;
+	margin-left: 400px;
 	padding: 50px;
+	border: solid;
+	border-width: 5px;
+	border-color: white;
+	box-shadow: 10px 10px 5px blink;
+	width: 25%
+	color: white;
+	margin-bottom: 40px;
+	animation: blink .5s step-end infinite alternate;
+}
 
-	
+h1.two-head{
+	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 /*navigation Bar*/
@@ -85,9 +101,11 @@ nav.top{
 	font-size: 35px;
 	color: white;
 	text-decoration: none;
-	margin-top: 25px;
-	padding-left: 30px;
+	margin-top: 50px;
+	padding-left: 60px;
+	padding-right: 60px;
 	width: 100%;
+	text-align: center;
 
 
 }
@@ -100,5 +118,10 @@ padding-right: 24px;
 
 a.signup{
 	padding: 50px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: red
 }
 

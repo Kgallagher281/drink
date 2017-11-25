@@ -50,12 +50,12 @@
   <tbody>
     <% @recipes.each do |recipe| %>
       <tr>
-        <td><%= recipe.title %></td>
-        <td><%= recipe.body %></td>
-        <td><%= image_tag recipe.photo.url(:thumb) %></td>
-        <td><%= link_to 'Show', recipe %></td>
-        <td><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
-        <td><%= link_to 'Destroy', recipe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="recp-info"><%= recipe.title %></td>
+        <td class="recp-info"><%= recipe.body %></td>
+        <td class="recp-info"><%= image_tag recipe.photo.url(:thumb) %></td>
+        <td class="recp-info"><%= link_to 'Show', recipe %></td>
+        <td class="recp-info"><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
+        <td class="recp-info"><%= link_to 'Destroy', recipe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

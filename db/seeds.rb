@@ -115,86 +115,8 @@ Location.create!([
 	address: "163 Newark Ave, Jersey City, NJ 07302",
 	longitude: "139.704241",
 	latitude: "35.700944"
-},
-
-{
-	id: 13,
-	name: "The Point Bar & Grill",
-	address: "697 Montauk Hwy, Montauk, NY 11954",
-	longitude: "-71.946787",
-	latitude: "41.033367"
-},
-
-{
-	id: 14,
-	name: "668 The Gig Shack",
-	address: "782 Main St, Montauk, NY 11954",
-	longitude: "-71.942674",
-	latitude: "41.035295"
-},
-
-{
-	id: 15,
-	name: "The Dock Bar & Grill",
-	address: "482 W Lake Dr, Montauk, NY 11954",
-	longitude: "-89.060125",
-	latitude: "30.427720"
-},
-
-{
-	id: 16,
-	name: "Bleacher Bar",
-	address: "82A Lansdowne St, Boston, MA 02215",
-	longitude: "-71.096614",
-	latitude: "42.3470567"
-},
-
-{
-	id: 17,
-	name: "Silvertone Bar & Grill",
-	address: "69 Bromfield St, Boston, MA 02108",
-	longitude: "-71.060883",
-	latitude: "42.357116"
-},
-{
-	id: 18,
-	name: "Grumpy's",
-	address: "904 Pennsylvania Ave W, Warren, PA 16365",
-	longitude: "-93.252834",
-	latitude: "44.975058"
-},
-
-{
-	id: 19,
-	name: "Hank's Oyster Bar",
-	address: "633 Pennsylvania Ave SE, Washington, DC 20003",
-	longitude: "-77.038103",
-	latitude: "38.910947"
-},
-
-{
-	id: 20,
-	name: "ENO Wine Bar",
-	address: "2810 Pennsylvania Ave NW, Washington, DC 20007",
-	longitude: "-77.057493",
-	latitude: "38.904870"
-},
-
-{
-	id: 21,
-	name: "Taylor's Bar & Grill",
-	address: "6021 PA-42, Unityville, PA 17774",
-	longitude: "-123.078867",
-	latitude: "44.045309"
-},
-
-{
-	id: 22,
-	name: "GCDC Grilled Cheese Bar",
-	address: "1730 Pennsylvania Ave NW, Washington, DC 20006",
-	longitude: "-77.040329",
-	latitude: "38.898714"
 }
+
 
 
 ])
@@ -243,7 +165,7 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2014/11/recipe-moscow-mul
 {
 id: 2,
 title: "Manhattan",
-body: "2 ounces rye whiskey, bourbon, or Canadian whiskey,1 ounce sweet vermouth,2–3 dashes Angostura Bitters, and Cherry for garnish",
+body: "2 ounces rye whiskey, bourbon, or Canadian whiskey, 1 ounce sweet vermouth,2–3 dashes Angostura Bitters, and Cherry for garnish",
 photo: open('http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/13/0/ED0309H_classic-manhattan-cocktail_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371614573383.jpeg')
 
 },

@@ -3,7 +3,30 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-body.loc{
+body.locate{
 	background-color: lightblue;
+	margin-left: 100px;
 }
 
+
+.loc{
+font-size: 14px;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+.loc2{
+font-size: 14px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+a.new-path{
+	margin-top: 15px;
+}
