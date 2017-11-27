@@ -1,3 +1,5 @@
+<div class="main-image-login">
+<div class="newlog">
 <h2 class="log">Log in</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
@@ -18,10 +20,14 @@
     </div>
   <% end -%>
 
-  <div class="actions">
-    <%= f.submit "Log in"%>
+  <div class="actionbutton">
+    <%= f.submit "Log in", :class => 'actionbutton' %>
 
   </div>
 <% end %>
+<div class="actions">
+<%= render "devise/shared/links", :style => "color:white"%>
+</div>
 
-<%= render "devise/shared/links" %>
+</div>
+</div>

@@ -61,11 +61,10 @@ body, html {
 
     /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 @keyframes blink { 
    50% { border-color: #ff0000; } 
@@ -131,34 +130,115 @@ nav:hover{
 	color: red
 }
 
-
+.mix{
+	margin-top: 100px;
+	margin-left: 10px;
+}
 
 /*Registration Page*/
 
 
 
 .field{
-	margin-left: 600px;
+	margin-left: 550px;
 	margin-top: 50px;
+	color: white;
+	font-size: 22px;
+	margin-bottom: 100px;
 }
+
+.fields{
+	margin-left: 550px;
+	margin-top: 50px;
+	color: white;
+	font-size: 22px;
+}
+
 
 .signup {
 	margin-left: 600px;
 	margin-top: 50px;
+	color: white;
 }
 
 .actions{
-	margin-left: 600px;
-	margin-top: 50px;	
+	margin-left: 550px;
+	margin-top: 50px;
+	color: white;
+	font-size: 22px;	
 }
 
-.sign{
-	font-size: 20px;
-	margin-left: 600px;
+.action{
+	margin-left: 550px;
 	margin-top: 50px;
+	color: white;
+	font-size: 22px;
+	margin-bottom: 100px;	
+}
+.sign{
+	margin-left: 550px;
+	color: white;
+	font-size: 30px;
 }
 
 .log{
 	margin-left: 600px;
-	margin-top: 50px;
+	margin-top: 150px;
+	color: white;
+	font-size: 30px;
+}
+
+.newlog{
+	border-width: 8px;
+	border: solid;
+	border-color: white;
+	height: 70%;
+	width: 70%;
+	margin-left: 300px;
+	color: white;
+	box-shadow: 15px 15px 15px white;
+}
+
+
+.newperson{
+	padding-top: 200px;
+	border-width: 8px;
+	border: solid;
+	border-color: white;
+	height: 65%;
+	width: 65%;
+	margin-left: 300px;
+	color: white;
+	box-shadow: 15px 15px 15px white;
+}
+
+.main-image-login{
+	 background-image: url("glasses.jpg");
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.actionbutton{
+	height: 25%;
+	width: 35%;
+	margin-left: 275px;
+	margin-top: 25px;
+	font-size: 22px;
+
+}
+
+.session{
+	color: white;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+a{
+	color: white;
+
 }
