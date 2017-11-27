@@ -3,3 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.user {
+    /* The image used */
+    background-image: url("glasses.jpg");
+    padding: 50px;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

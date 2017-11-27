@@ -81,18 +81,23 @@ div.signup{
 	margin-left: 400px;
 	padding: 50px;
 	border: solid;
-	border-width: 5px;
+	border-width: 10px;
 	border-color: white;
 	box-shadow: 10px 10px 5px blink;
 	width: 25%
 	color: white;
 	margin-bottom: 40px;
-	animation: blink .5s step-end infinite alternate;
+	animation: blink .8s step-end infinite alternate;
+	text-decoration: none;
 }
 
 h1.two-head{
 	margin-bottom: 40px;
 	padding-bottom: 40px;
+}
+
+a.begin{
+	text-decoration: none;
 }
 
 /*navigation Bar*/
@@ -108,6 +113,7 @@ nav.top{
 	text-align: center;
 
 
+
 }
 
 .bar{
@@ -120,8 +126,39 @@ a.signup{
 	padding: 50px;
 }
 
-a:hover{
+nav:hover{
 	text-decoration: none;
 	color: red
 }
 
+
+
+/*Registration Page*/
+
+
+
+.field{
+	margin-left: 600px;
+	margin-top: 50px;
+}
+
+.signup {
+	margin-left: 600px;
+	margin-top: 50px;
+}
+
+.actions{
+	margin-left: 600px;
+	margin-top: 50px;	
+}
+
+.sign{
+	font-size: 20px;
+	margin-left: 600px;
+	margin-top: 50px;
+}
+
+.log{
+	margin-left: 600px;
+	margin-top: 50px;
+}
