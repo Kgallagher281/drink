@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   resources :contacts
   resources :recipe_locations
   devise_for :users
-  resources :ingredients
+  get 'ingredients/:cocktaildb_id' => 'ingredients#show', as: :ingredient
+  resources :ingredients, only: :index
   resources :recipe_ingredients
   resources :recipes
   resources :locations
@@ -13,6 +14,9 @@ Rails.application.routes.draw do
 post 'ingredients' => 'ingredients#index'
 
 post 'recipes' => 'recipes#index'
+
+
+
 end 
 
   

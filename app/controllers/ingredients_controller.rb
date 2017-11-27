@@ -1,5 +1,5 @@
 class IngredientsController < ApplicationController
-  before_action :set_ingredient, only: [:show, :edit, :update, :destroy]
+  before_action :set_ingredient, only: [:edit, :update, :destroy]
 
   # GET /ingredients
   # GET /ingredients.json
@@ -11,10 +11,13 @@ end
 def search
     
   end
-  # GET /ingredients/1
-  # GET /ingredients/1.json
-def show
-end
+
+  def show
+    data = HTTParty.get("http://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=#{params[:cocktaildb_id]}").body
+    p data
+    @results = JSON.parse(data)["drinks"].first
+
+  end
 
   # GET /ingredients/new
   def new

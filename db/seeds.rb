@@ -159,6 +159,7 @@ id: 1,
 title: "Moscow Mule",
 body: "1 1/2 fluid ounces vodka, 1/2 fluid ounce lime juice, ice cubes, 1/2 cup ginger beer, and 1 lime wedge for garnish",
 photo: open('https://cdn.liquor.com/wp-content/uploads/2014/11/recipe-moscow-mule.jpg'),
+cocktaildb_id: 13254
 
 },
 
@@ -166,7 +167,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2014/11/recipe-moscow-mul
 id: 2,
 title: "Manhattan",
 body: "2 ounces rye whiskey, bourbon, or Canadian whiskey, 1 ounce sweet vermouth,2–3 dashes Angostura Bitters, and Cherry for garnish",
-photo: open('http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/13/0/ED0309H_classic-manhattan-cocktail_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371614573383.jpeg')
+photo: open('http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/13/0/ED0309H_classic-manhattan-cocktail_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371614573383.jpeg'),
+cocktaildb_id: 13839
 
 },
 
@@ -174,39 +176,18 @@ photo: open('http://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/1
 id: 3,
 title: "Whiskey Sour",
 body: "2 ounces whiskey, 1 ounce fresh-squeezed lemon juice, and 1 teaspoon sugar",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2011/07/05125158/fa-Whiskey-Sour.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2011/07/05125158/fa-Whiskey-Sour.jpg'),
+cocktaildb_id: 12516
 
 }, 
 
-{
-id: 4,
-title: "Backsliding Presbyterian",
-body: "2 oz. bourbon, ½ oz. Campari, 1 oz. fresh lime juice, and 1½ oz. ginger syrup",
-photo: open('http://imbibemagazine.com/wp-content/uploads/2016/06/backsliding-presbyterian-brixrye-vertical-crdt-eric-medsker-330x410.jpg')
-
-},
-
-{
-id: 5,
-title: "Dead Rabbit Tipperary",
-body: "1½ oz. Irish whiskey, 1 oz. sweet vermouth, ½ oz. green Chartreuse, ½ oz. chilled water, 1 tsp. rich simple syrup (2:1), 2 dashes orange bitters",
-photo: open('http://imbibemagazine.com/wp-content/uploads/2016/12/tipperary-dead-rabbit-gallery-crdt-stuart-mullenberg.jpg')
-
-}, 
-
-{
-id: 6,
-title: "Gin Basil Smash",
-body: "2 oz. gin, ¾ oz. fresh lemon juice, ¾ oz. simple syrup (1:1), 2-3 sprigs fresh basil",
-photo: open('http://imbibemagazine.com/wp-content/uploads/2016/02/gin-basil-smash-vertical-crdt-lara-ferroni-330x410.jpg')
-
-},
 
 {
 id: 7,
 title: "Cosmoplitan",
 body: "1 1⁄2 oz Citrus vodka, 1 oz Cointreau, 1⁄2 oz Fresh lime juice, and 1 dash Cranberry juice",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06100445/cosmopolitan-720x720-recipe.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06100445/cosmopolitan-720x720-recipe.jpg'),
+cocktaildb_id: 12345
 
 }, 
 
@@ -214,7 +195,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06100445/cosmopol
 id: 8,
 title: "Mojito",
 body: "6  Mint leaves, 3⁄4 oz Simple syrup, 3⁄4 oz Fresh lime juice, 1 1⁄2 oz White rum, and 1 1⁄2 oz Club soda",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2017/03/07152909/mojito-720x720-recipe.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2017/03/07152909/mojito-720x720-recipe.jpg'),
+cocktaildb_id: 13427
 
 },
 
@@ -223,7 +205,8 @@ id: 9,
 title: "Bloody Mary",
 body: "1  Lemon wedge, 1  Lime wedge, 2 oz Premium Vodka, 4 oz Tomato juice, 2 dashes Tabasco Sauce, 2 tsp Prepared horseradish, 2 dashes Worcestershire sauce, 
 1 pinch Celery salt, 1 pinch Ground black pepper, and 1 pinch smoked paprika",
-photo: open('http://cdn.liquor.com/wp-content/uploads/2016/12/12103030/Bloody-Mary-Pinterest.jpg')
+photo: open('http://cdn.liquor.com/wp-content/uploads/2016/12/12103030/Bloody-Mary-Pinterest.jpg'),
+cocktaildb_id: 11113
 
 },
 
@@ -231,7 +214,8 @@ photo: open('http://cdn.liquor.com/wp-content/uploads/2016/12/12103030/Bloody-Ma
 id: 11,
 title: "Dry Martini",
 body: "2 1⁄2 oz Beefeater gin, 1⁄2 oz dry vermouth, and 1 dash Orange bitters",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/08/Dry-Martini.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2013/08/Dry-Martini.jpg'),
+cocktaildb_id: 13579
 
 },
 
@@ -239,7 +223,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2013/08/Dry-Martini.jpg')
 id: 12,
 title: "Daiquiri",
 body: "2 oz Dark rum (Appleton Estate Reserve), 1 oz Fresh lime juice, and 1 oz Simple syrup",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06101515/ultimate-daiquiri-720x720-recipe.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06101515/ultimate-daiquiri-720x720-recipe.jpg'),
+cocktaildb_id: 11291
 
 }, 
 
@@ -247,7 +232,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06101515/ultimate
 id: 13,
 title: "Mango Brava Daiquiri",
 body: "2 oz Mango-Infused Rum, 1⁄2 oz Lime juice, and 1⁄2 oz Simple syrup (one part sugar, one part water)",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/03/30153638/Mango-Brava-Daiquiri.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2013/03/30153638/Mango-Brava-Daiquiri.jpg'),
+cocktaildb_id: 11387
 
 },
 
@@ -255,7 +241,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2013/03/30153638/Mango-Br
 id: 14,
 title: "Tegroni",
 body: "1 oz Blanco tequila, 1 oz Sweet vermouth, and 1 oz Campari",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/04/Tegroni.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2013/04/Tegroni.jpg'),
+cocktaildb_id: 56789
 
 }, 
 
@@ -263,7 +250,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2013/04/Tegroni.jpg')
 id: 15,
 title: "Tequilla Mockingbird",
 body: "1  Jalapeño pepper slice, 2 oz Patrón Silver Tequila, 1 1⁄2 oz Watermelon-Basil Purée, 3⁄4 oz Fresh lime juice, and 3⁄4 oz Agave syrup (one part agave nectar, one part water)",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2011/04/12153405/Tequila-Mockingbird-newest.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2011/04/12153405/Tequila-Mockingbird-newest.jpg'),
+cocktaildb_id: 98765
 
 },
 
@@ -271,7 +259,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2011/04/12153405/Tequila-
 id: 16,
 title: "Screwdriver",
 body: "1 1⁄2 oz Vodka and Orange juice",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06162348/screwdrvier-720x720-recipe.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06162348/screwdrvier-720x720-recipe.jpg'),
+cocktaildb_id: 12162
 
 },
 
@@ -279,7 +268,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06162348/screwdrv
 id: 17,
 title: "Cucumber, Basil & Lime Gimlet",
 body: "1 1⁄2 oz Moon Mountain Vodka, 2 slices Cucumber (.25 inches), 1 1⁄2  Fresh basil leaves, 1 oz Lemonade, and 1⁄4 oz Lime juice",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/02/Cucumber-Basil-Lime-Gimlet.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2013/02/Cucumber-Basil-Lime-Gimlet.jpg'),
+cocktaildb_id: 54321
 
 },
 
@@ -287,7 +277,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2013/02/Cucumber-Basil-Li
 id: 18,
 title: "Gin Fizz",
 body: "1 oz Club soda, 2 oz Plymouth gin, 1 oz Lemon Juice, 3⁄4 oz Simple syrup, and 1  Egg white (about .5 oz)",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/05/Gin-Fizz.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2013/05/Gin-Fizz.jpg'),
+cocktaildb_id: 11410
 
 }, 
 
@@ -295,7 +286,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2013/05/Gin-Fizz.jpg')
 id: 19,
 title: "Tom Collins",
 body: "3⁄4 oz Fresh lemon juice, 3⁄4 oz Simple syrup (one part water, one part sugar), 1 1⁄2 oz Gin, and Club soda",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2010/12/16130814/tom-collins.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2010/12/16130814/tom-collins.jpg'),
+cocktaildb_id: 12402
 
 },
 
@@ -303,7 +295,8 @@ photo: open('https://cdn.liquor.com/wp-content/uploads/2010/12/16130814/tom-coll
 id: 20,
 title: "The Basil Fizz",
 body: "1 oz Basil Haydens Bourbon and 4 oz Champagne",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2012/08/basil-fizz.jpg')
+photo: open('https://cdn.liquor.com/wp-content/uploads/2012/08/basil-fizz.jpg'),
+cocktaildb_id: 97531
 }
 
 

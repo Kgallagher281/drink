@@ -68,6 +68,7 @@ ActiveRecord::Schema.define(version: 20171121144734) do
     t.string "photo_content_type"
     t.integer "photo_file_size"
     t.datetime "photo_updated_at"
+    t.integer "cocktaildb_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

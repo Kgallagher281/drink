@@ -23,7 +23,8 @@
       <% @results.each do |drink| %>
 <tr>
      <td class="result"><img width="100px" src="<%= drink["strDrinkThumb"] %>" /></td>
-     <td class="results"><%= drink["strDrink"] %></td>
+     <td class="results"><%= link_to drink["strDrink"], ingredient_path(drink["idDrink"]) %></td>
+
      <% end %>
 </table>
 <% end %>

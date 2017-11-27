@@ -1,24 +1,8 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @ingredient.name %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @ingredient.description %>
-</p>
-
-<p>
-  <strong>Alcohol:</strong>
-  <%= @ingredient.alcohol %>
-</p>
-
-<p>
-  <strong>Mixer:</strong>
-  <%= @ingredient.mixer %>
-</p>
-
-<%= link_to 'Edit', edit_ingredient_path(@ingredient) %> |
-<%= link_to 'Back', ingredients_path %>
+<h2><%= @results['strDrink'] %></h2>
+     <p><%= @results["strInstructions"] %></p>
+     <ul>
+     <% 15.times do |i| 
+     break unless @results["strIngredient#{i+1}"].length > 1%>
+     <li><%= @results["strIngredient#{i+1}"] %> - <%= @results["strMeasure#{i+1}"]%></li>
+     <% end %>
+     </ul>
