@@ -2,9 +2,9 @@
 <body class="showrecipesbody">
 <div class="showrecipes">
 <h2>Drink Name:</h2>
-<h3><%= @results['strDrink'] %></h3><br><br>
+<h4><%= @results['strDrink'] %></h4><br><br>
 <h2>Drink Recipe:</h2>
-     <p><%= @results["strInstructions"] %></p>
+     <p class="rez"><%= @results["strInstructions"] %></p>
      <ul>
      <% 15.times do |i| 
      break unless @results["strIngredient#{i+1}"].length > 1%>
