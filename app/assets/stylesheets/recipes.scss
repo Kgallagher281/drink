@@ -11,6 +11,7 @@ body.recp{
 .recipe{
 	color: black;
 	margin-top: 100px;
+	margin-right: 100px;
 }
 
 
@@ -31,8 +32,10 @@ body.recp{
 }
 
 .recp-info{
-	font-size: 15px;
+	font-size: 18px;
 	padding: 20px;
+	margin-left: 25px;
+	margin-top: 25px;
 }
 
 
@@ -56,9 +59,9 @@ body.recp{
 
 }
 
-.drink{
+th.drink{
 	font-size: 20px;
-
+	margin-right: 200px;
 }
 
 .new-recp{

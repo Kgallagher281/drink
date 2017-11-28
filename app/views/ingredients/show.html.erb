@@ -1,4 +1,9 @@
-<h2><%= @results['strDrink'] %></h2>
+<html class="showrecipeshtml">
+<body class="showrecipesbody">
+<div class="showrecipes">
+<h2>Drink Name:</h2>
+<h3><%= @results['strDrink'] %></h3><br><br>
+<h2>Drink Recipe:</h2>
      <p><%= @results["strInstructions"] %></p>
      <ul>
      <% 15.times do |i| 
@@ -6,3 +11,6 @@
      <li><%= @results["strIngredient#{i+1}"] %> - <%= @results["strMeasure#{i+1}"]%></li>
      <% end %>
      </ul>
+ </div>
+ </body>
+ </html>
