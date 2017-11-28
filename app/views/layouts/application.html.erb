@@ -14,7 +14,6 @@
       <% if user_signed_in?%>
         <!-- need to define root for HAT3. Direct to homepage -->
         <!-- <span><%= link_to image_tag("cocktailanddream.jpg", alt: "logo"), '/', class: 'barl' %></span> -->
-        <span class="bar"><%= link_to "Home", ingredients_path, style: "color:white; text-decoration: none;"  %></span>
         <span class="bar"><%= link_to "Create Cocktails", ingredients_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to "Popular Cocktail Recipes", recipes_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to "Best Cocktail Locations", locations_path, style: "color:white; text-decoration: none;" %></span>

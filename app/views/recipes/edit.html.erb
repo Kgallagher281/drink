@@ -1,6 +1,12 @@
-<h1>Editing Recipe</h1>
+<html class='rechtml'>
+<body class='recbody'>
+<div class="editrecipe">
+<h1 style="text-align: center;">Editing Recipe</h1>
 
 <%= render 'form', recipe: @recipe %>
 
-<%= link_to 'Show', @recipe %> |
-<%= link_to 'Back', recipes_path %>
+<%= link_to 'Show', @recipe, class: 'showrecipe' %> |
+<%= link_to 'Back', recipes_path, class: 'backrecipe' %>
+</div>
+</body>
+</html>
