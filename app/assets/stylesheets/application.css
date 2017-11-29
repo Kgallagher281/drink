@@ -22,25 +22,27 @@ body, html {
     height: 100%;
     width: 100%;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .welcome {
     /* The image used */
-    background-image: url("glasses.jpg");
+    background-image: url("backoption2.png");
+    margin-top: -300px;
 
     /* Full height */
     height: 100%; 
 
     /* Center and scale the image nicely */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 .design{
 	font-size:  30px;
 	text-align: center;
-	margin-top: 500px;
+	margin-top: 800px;
 	position: absolute;
 	z-index: 2;
 	margin-left: 550px;
@@ -48,13 +50,21 @@ body, html {
 	
 }
 
-html.home{
-	background-image: url("glasses.jpg");
+.home{
+	background-image: url("backoption2.png");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	height: 150%;
-	margin-top: -175px;
+	height: 100%;
+}
+
+.home2{
+	background-image: url("backoption2.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+	margin-top: -200px;
 }
 
 
@@ -65,40 +75,36 @@ html.home{
 
 .user {
     /* The image used */
-    background-image: url("glasses.jpg");
+    background-image: url("backoption8.jpeg");
     padding: 50px;
-
+	z-index: 2;
     /* Full height */
     height: 100%; 
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 
 @keyframes blink { 
-   50% { border-color: #ff0000; } 
+   50% { border-color: red; } 
 }
 
 
 div.signup{
 	font-size:  30px;
 	text-align: center;
-	margin-top: 550px;
+	margin-top: -50px;
 	position: absolute;
 	z-index: 2;
-	margin-left: 400px;
-	padding: 50px;
-	border: solid;
-	border-width: 10px;
-	border-color: white;
-	box-shadow: 10px 10px 5px blink;
-	box-shadow: 15px 15px 15px white;
+	margin-left: 520px;
 	width: 25%
-	color: white;
+	color: red;
 	margin-bottom: 40px;
 	text-decoration: none;
+
 }
 
 h1.two-head{
@@ -226,7 +232,7 @@ nav:hover{
 }
 
 .main-image-login{
-	 background-image: url("glasses.jpg");
+	 background-image: url("backoption1.jpeg");
 
     /* Full height */
     height: 100%; 
@@ -234,6 +240,7 @@ nav:hover{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
+    opacity: 0.2;
 }
 
 .actionbutton{
@@ -308,4 +315,13 @@ a{
 image.barl{
 	height: 20px;
 	width: 20px;
+}
+
+.verify{
+  font-size: 35px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: none;
+  margin-top: 600px;
+
 }

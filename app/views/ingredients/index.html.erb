@@ -20,10 +20,12 @@
   <% unless @results.nil? %>
 <table>
   <tr>
+  <div class="complete">
       <% @results.each_with_index do |drink, index| %>
      <td class="result"><img width="100px" src="<%= drink["strDrinkThumb"] %>" /></td>
      <td class="results"><%= link_to drink["strDrink"], ingredient_path(drink["idDrink"]) %></td>
   <%= "\t</tr>\n\t<tr>\n".html_safe if index % 2 == 1 %>
+  </div>
      <% end %>
      </tr>
 </table>

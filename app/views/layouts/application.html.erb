@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mixology</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Highball</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -12,8 +13,6 @@
 
     <nav class="top">
       <% if user_signed_in?%>
-        <!-- need to define root for HAT3. Direct to homepage -->
-        <!-- <span><%= link_to image_tag("cocktailanddream.jpg", alt: "logo"), '/', class: 'barl' %></span> -->
         <span class="bar"><%= link_to "Create Cocktails", ingredients_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to "Popular Cocktail Recipes", recipes_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to "Best Cocktail Locations", locations_path, style: "color:white; text-decoration: none;" %></span>
