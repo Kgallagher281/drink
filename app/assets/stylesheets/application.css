@@ -133,6 +133,7 @@ nav.top{
 
 
 
+
 }
 
 .bar{
@@ -153,6 +154,8 @@ nav:hover{
 .mix{
 	margin-top: 100px;
 	margin-left: 50px;
+	color: white;
+	font-size: 40px;
 }
 
 /*Registration Page*/
@@ -160,51 +163,53 @@ nav:hover{
 
 
 .field{
-	margin-left: 1300px;
+	margin-left: 1100px;
 	margin-top: 50px;
 	color: white;
 	font-size: 22px;
 	margin-bottom: 100px;
+	
 }
 
 .fields{
-	margin-left: 1300px;
+	margin-left: 1100px;
 	margin-top: 50px;
 	color: white;
 	font-size: 22px;
 	padding: -20px;
+	order-bottom: 2px solid white;
 }
 
 
 .signup {
-	margin-left: 1300px;
+	margin-left: 1100px;
 	margin-top: 50px;
 	color: black;
 }
 
 .actions{
-	margin-left: 1300px;
+	margin-left: 1100px;
 	margin-top: 50px;
 	color: white;
 	font-size: 22px;	
 }
 
 .action{
-	margin-left: 1300px;
+	margin-left: 1100px;
 	margin-top: 50px;
 	color: white;
 	font-size: 22px;
 	margin-bottom: 100px;	
 }
 .sign{
-	margin-left: 1300px;
+	margin-left: 1100px;
 	color: white;
 	font-size: 35px;
 	margin-top: 75px;
 }
 
 .log{
-	margin-left: 1300px;
+	margin-left: 1100px;
 	margin-top: 78px;
 	color: white;
 	font-size: 30px;
@@ -246,7 +251,7 @@ nav:hover{
 .actionbutton{
 	height: 25%;
 	width: 25%;
-	margin-left: 660px;
+	margin-left: 550px;
 	margin-top: 25px;
 	font-size: 22px;
 
@@ -319,9 +324,10 @@ image.barl{
 
 .verify{
   font-size: 35px;
-  padding: 20px;
+  padding: 25px;
   text-decoration: none;
   background-color: none;
   margin-top: 600px;
+
 
 }

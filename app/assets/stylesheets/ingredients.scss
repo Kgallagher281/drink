@@ -3,8 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-body.ing{
-	background-color: lightblue;
+html body.ing:after{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+	background-image: url("backoption16.png");
+ /*  height: 100%; */
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+   
 }
 
 
@@ -25,12 +38,6 @@ input.alc{
 
 }
 
-body.ing{
-	font-size: 20px;
-
-
-
-}
 
 h1.mix{
 padding-left: 685px;
@@ -57,25 +64,13 @@ padding-top: 25px;
 .result{
   margin-left: 350px;
   display: inline-block;
+
 }
 
 .results {
   font-size: 20px;
   margin-left: 200px;
 }
-
-.title{
-  font-size: 25px;
-  margin-top: 100px;
-  margin-left: 50px;
-}
-
-.titlen{
-  font-size: 25px;
-  margin-left: -150px;
-  margin-top: 100px;
-}
-
 
 .complete{
   padding-top: 50px;

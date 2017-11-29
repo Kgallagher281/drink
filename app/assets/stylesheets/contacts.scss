@@ -4,7 +4,12 @@
 
 
 body.about {
-	background-color: lightblue;
+	background-image: url("backoption16.png");
+   height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -25,6 +30,7 @@ body.about {
 	width: 50%;
 	height: 50%;
     font-size: 35px;
+    color: white;
 }
 
 .container{
@@ -33,6 +39,7 @@ body.about {
 	border-style: solid;
 	box-sizing: border-box;
 	width: 20%;
+	color: white;
 
 }
 
@@ -42,6 +49,7 @@ body.about {
 	margin-bottom: 40px;
 	font-size: 35px;
 	margin-top: 200px;
+	color: white;
 }
 
 
@@ -59,8 +67,9 @@ margin-top: 5px;
 }
 
 .info{
-	font-size: 20px;
+	font-size: 28px;
 	text-align: center;
 	margin-left: 250px;
 	margin-right: 250px;
+	color: white;
 }
