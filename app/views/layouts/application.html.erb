@@ -17,7 +17,7 @@
       <% if user_signed_in?%>
         <span class="bar"><%= link_to "Create Cocktails", ingredients_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to "Popular Cocktail Recipes", recipes_path, style: "color:white; text-decoration: none;" %></span>
-        <span class="bar"><%= link_to "Best Cocktail Locations", locations_path, style: "color:white; text-decoration: none;" %></span>
+        <span class="bar"><%= link_to "Bar Locations", locations_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to "About us", contacts_path, style: "color:white; text-decoration: none;" %></span>
         <span class="bar"><%= link_to 'Sign out', destroy_user_session_path, :method => :delete, style: "color:white; text-decoration: none;" %></span>
     <% end %>
