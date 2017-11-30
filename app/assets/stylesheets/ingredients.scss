@@ -41,7 +41,7 @@ input.alc{
 
 
 h1.mix{
-padding-left: 685px;
+padding-left: 635px;
 padding-top: 25px;
 
 }
@@ -78,3 +78,65 @@ padding-top: 25px;
   padding-right: 100px;
 }
 
+.showrecipeshtml{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-image: url("backoption16.png");
+ /*  height: 100%; */
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+   font-family: 'Vollkorn', serif;
+   color: white;
+}
+
+.showrecipesbody{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-image: url("backoption16.png");
+ /*  height: 100%; */
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+   font-family: 'Vollkorn', serif;
+   color: white;
+   border-color: white;
+}
+
+.dn{
+  color: white;
+  font-size: 45px;
+  padding: 20px;
+}
+
+.dr{
+  color: white;
+  font-size: 45px;
+  padding: 20px;
+}
+
+h4{
+  color: white;
+  font-size: 40px;
+}
+
+li{
+  color: white;
+  font-size: 40px;
+}
+
+.showrecipes{
+  border-color: white;
+}

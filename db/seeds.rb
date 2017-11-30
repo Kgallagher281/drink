@@ -33,7 +33,7 @@ Location.create!([
 	address: "32 Cliff St, New York, NY 10038",
 	longitude: "-74.004983",
 	latitude: "40.708235",
-	photo: open('https://media-cdn.tripadvisor.com/media/photo-s/03/06/6e/08/the-iron-horse-nyc.jpg')
+	photo: open('app/assets/images/ironhorse.jpg')
 
 },
 

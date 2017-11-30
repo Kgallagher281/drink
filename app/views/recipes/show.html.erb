@@ -1,15 +1,25 @@
-
+<html class="showhtml">
+<body class="showbody">
+<div class="showrec">
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+ <div class='newrectitle'>
+  <strong>Drink Name:</strong><br><br>
   <%= @recipe.title %>
+  </div>
 </p>
 
 <p>
-  <strong>Body:</strong>
+ <div class='newrecbody'>
+  <strong>Drink Description:</strong><br><br>
   <%= @recipe.body %>
+  </div>
 </p>
-
+<div class='newrecbody'>
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
 <%= link_to 'Back', recipes_path %>
+</div>
+</div>
+</body>
+</html>

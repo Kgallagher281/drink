@@ -126,7 +126,7 @@
             
           });
          var infowindow = new google.maps.InfoWindow({ 
-          content:`<p><h6>${location.name}</h6> ${location.address} ${location.photo}</p>`
+          content:`<p><h3>${location.name}</h3> ${location.address} <img src= "${location.photo}"></p>`
         });
           marker.setMap(map);
           marker.addListener('click', function(){
