@@ -114,13 +114,15 @@ div.signup{
 h1.two-head{
 	margin-top: -15px;
 	margin-bottom: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	font-family: 'Alex Brush', cursive;
-	font-size: 100px;
+	font-size: 90px;
+	margin-left: -200px;
 }
 
 a.begin{
 	text-decoration: none;
+	margin-left: -200px;
 }
 
 /*navigation Bar*/
@@ -148,6 +150,7 @@ padding-right: 45px;
 
 a.signup{
 	padding: 50px;
+	padding-left: -50px;
 }
 
 nav:hover{
