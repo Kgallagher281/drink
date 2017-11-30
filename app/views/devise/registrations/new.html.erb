@@ -15,9 +15,8 @@
     <%= f.text_field :lname, id: :user_lname %>
   </div>
 
-
   <div class="fields">
-    <%= f.label :email %><br />
+    <%= f.label :email %>
     <%= f.email_field :email, autofocus: true %>
   </div>
 
@@ -25,12 +24,12 @@
     <%= f.label :password %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
-    <% end %><br />
+    <% end %><br>
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 
   <div class="fields">
-    <%= f.label :password_confirmation %><br />
+    <%= f.label :password_confirmation %>
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 

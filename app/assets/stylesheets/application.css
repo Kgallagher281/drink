@@ -67,6 +67,10 @@ body, html {
 	margin-top: -200px;
 }
 
+em{
+	font-size: 12px;
+}
+
 
 
 
@@ -169,6 +173,7 @@ nav:hover{
 	font-size: 22px;
 	margin-bottom: 100px;
 	
+	
 }
 
 .fields{
@@ -177,7 +182,7 @@ nav:hover{
 	color: white;
 	font-size: 22px;
 	padding: -20px;
-	order-bottom: 2px solid white;
+	
 }
 
 
