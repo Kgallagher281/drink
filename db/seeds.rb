@@ -184,14 +184,14 @@ cocktaildb_id: 12516
 }, 
 
 
-{
-id: 7,
-title: "Cosmoplitan",
-body: "1 1⁄2 oz Citrus vodka, 1 oz Cointreau, 1⁄2 oz Fresh lime juice, and 1 dash Cranberry juice",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06100445/cosmopolitan-720x720-recipe.jpg'),
-cocktaildb_id: 12345
+# {
+# id: 7,
+# title: "Cosmoplitan",
+# body: "1 1⁄2 oz Citrus vodka, 1 oz Cointreau, 1⁄2 oz Fresh lime juice, and 1 dash Cranberry juice",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06100445/cosmopolitan-720x720-recipe.jpg'),
+# cocktaildb_id: 12345
 
-}, 
+# }, 
 
 {
 id: 8,
@@ -221,32 +221,32 @@ cocktaildb_id: 13579
 
 },
 
-{
-id: 12,
-title: "Daiquiri",
-body: "2 oz Dark rum (Appleton Estate Reserve), 1 oz Fresh lime juice, and 1 oz Simple syrup",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06101515/ultimate-daiquiri-720x720-recipe.jpg'),
-cocktaildb_id: 11291
+# {
+# id: 12,
+# title: "Daiquiri",
+# body: "2 oz Dark rum (Appleton Estate Reserve), 1 oz Fresh lime juice, and 1 oz Simple syrup",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2017/11/06101515/ultimate-daiquiri-720x720-recipe.jpg'),
+# cocktaildb_id: 11291
 
-}, 
+# }, 
 
-{
-id: 13,
-title: "Mango Brava Daiquiri",
-body: "2 oz Mango-Infused Rum, 1⁄2 oz Lime juice, and 1⁄2 oz Simple syrup (one part sugar, one part water)",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/03/30153638/Mango-Brava-Daiquiri.jpg'),
-cocktaildb_id: 11387
+# {
+# id: 13,
+# title: "Mango Brava Daiquiri",
+# body: "2 oz Mango-Infused Rum, 1⁄2 oz Lime juice, and 1⁄2 oz Simple syrup (one part sugar, one part water)",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2013/03/30153638/Mango-Brava-Daiquiri.jpg'),
+# cocktaildb_id: 11387
 
-},
+# },
 
-{
-id: 14,
-title: "Tegroni",
-body: "1 oz Blanco tequila, 1 oz Sweet vermouth, and 1 oz Campari",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/04/Tegroni.jpg'),
-cocktaildb_id: 56789
+# {
+# id: 14,
+# title: "Tegroni",
+# body: "1 oz Blanco tequila, 1 oz Sweet vermouth, and 1 oz Campari",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2013/04/Tegroni.jpg'),
+# cocktaildb_id: 56789
 
-}, 
+# }, 
 
 {
 id: 15,
@@ -266,32 +266,32 @@ cocktaildb_id: 12162
 
 },
 
-{
-id: 17,
-title: "Cucumber, Basil & Lime Gimlet",
-body: "1 1⁄2 oz Moon Mountain Vodka, 2 slices Cucumber (.25 inches), 1 1⁄2  Fresh basil leaves, 1 oz Lemonade, and 1⁄4 oz Lime juice",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/02/Cucumber-Basil-Lime-Gimlet.jpg'),
-cocktaildb_id: 54321
+# {
+# id: 17,
+# title: "Cucumber, Basil & Lime Gimlet",
+# body: "1 1⁄2 oz Moon Mountain Vodka, 2 slices Cucumber (.25 inches), 1 1⁄2  Fresh basil leaves, 1 oz Lemonade, and 1⁄4 oz Lime juice",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2013/02/Cucumber-Basil-Lime-Gimlet.jpg'),
+# cocktaildb_id: 54321
 
-},
+# },
 
-{
-id: 18,
-title: "Gin Fizz",
-body: "1 oz Club soda, 2 oz Plymouth gin, 1 oz Lemon Juice, 3⁄4 oz Simple syrup, and 1  Egg white (about .5 oz)",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2013/05/Gin-Fizz.jpg'),
-cocktaildb_id: 11410
+# {
+# id: 18,
+# title: "Gin Fizz",
+# body: "1 oz Club soda, 2 oz Plymouth gin, 1 oz Lemon Juice, 3⁄4 oz Simple syrup, and 1  Egg white (about .5 oz)",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2013/05/Gin-Fizz.jpg'),
+# cocktaildb_id: 11410
 
-}, 
+# }, 
 
-{
-id: 19,
-title: "Tom Collins",
-body: "3⁄4 oz Fresh lemon juice, 3⁄4 oz Simple syrup (one part water, one part sugar), 1 1⁄2 oz Gin, and Club soda",
-photo: open('https://cdn.liquor.com/wp-content/uploads/2010/12/16130814/tom-collins.jpg'),
-cocktaildb_id: 12402
+# {
+# id: 19,
+# title: "Tom Collins",
+# body: "3⁄4 oz Fresh lemon juice, 3⁄4 oz Simple syrup (one part water, one part sugar), 1 1⁄2 oz Gin, and Club soda",
+# photo: open('https://cdn.liquor.com/wp-content/uploads/2010/12/16130814/tom-collins.jpg'),
+# cocktaildb_id: 12402
 
-},
+# },
 
 {
 id: 20,

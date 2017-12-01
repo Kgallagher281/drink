@@ -1,16 +1,23 @@
+<html class="showhtmlloc">
+<body class="showbodyloc">
+<div class="showdivloc">
 <p id="notice"><%= notice %></p>
 
 <p>
+  <div class="showname">
   <strong>Name:</strong>
   <%= @location.name %>
+  </div>
 </p>
 
 <p>
+  <div class="showaddress">
   <strong>Address:</strong>
   <%= @location.address %>
+  </div>
 </p>
 
-
-
-<%= link_to 'Edit', edit_location_path(@location) %> |
 <%= link_to 'Back', locations_path %>
+</div>
+</body>
+</html>
