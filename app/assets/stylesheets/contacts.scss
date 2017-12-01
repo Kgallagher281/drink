@@ -4,6 +4,12 @@
 
 
 body.about {
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
 	background-image: url("backoption16.png");
    height: 100%; 
 
@@ -34,8 +40,8 @@ body.about {
 }
 
 .container{
-	margin-top: 150px;
-	margin-left: 650px;
+	margin-top: 50px;
+	margin-left: 750px;
 	border-style: solid;
 	box-sizing: border-box;
 	width: 20%;
@@ -45,10 +51,10 @@ body.about {
 
 
 .aboutus{
-	margin-left: 750px;
+	margin-left: 850px;
 	margin-bottom: 40px;
 	font-size: 35px;
-	margin-top: 200px;
+	margin-top: 50px;
 	color: white;
 }
 
@@ -72,5 +78,6 @@ margin-top: 5px;
 	margin-left: 250px;
 	margin-right: 250px;
 	color: white;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 35px;
 }
